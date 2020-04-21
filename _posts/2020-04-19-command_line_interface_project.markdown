@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Command Line Interface Project "
-date:       2020-04-19 23:33:40 +0000
+date:       2020-04-19 19:33:41 -0400
 permalink:  command_line_interface_project
 ---
 
@@ -19,7 +19,7 @@ Finally, I chose my project, the goal of this project is to bring data from a po
 * Show customers have visited these hotels 
 * Show the review of each customer 
 
-In this project, we designed a program that gets data from a specific website, and makes some processes process on it, then displays the results on the CLI.
+In this project, we designed a program that gets data from a specific website, and makes some processes  on it, then displays the results on the CLI.
 
 
 The first thing we have to make our folders and files required for this project, Ruby has a form of a gem or a packaged library.
