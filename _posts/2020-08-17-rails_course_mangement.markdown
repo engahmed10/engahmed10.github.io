@@ -1,10 +1,11 @@
 ---
 layout: post
-title:      " Rails Course Mangement"
-date:       2020-08-17 21:09:26 +0000
+title:      " Course Management By Using Rails "
+date:       2020-08-17 17:09:27 -0400
 permalink:  rails_course_mangement
 ---
 
+ 
 The idea of my rails project is to manage courses added by an individual or added from  API's data,
 so it will be more accessible to the user when he login to log for a specific course in the world. 
 
