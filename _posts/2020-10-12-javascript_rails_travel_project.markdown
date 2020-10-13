@@ -99,5 +99,7 @@ const{id,name,country,population,url,thingstodos} =this.city .
 
 ```
 
+finally we got everything working ,and single page looks like this:
 
+![](https://linkpicture.com/q/Screen-Shot-2020-10-12-at-5.22.58-PM.png)
 
