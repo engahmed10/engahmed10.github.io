@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Simple Ruby cheatsheet "
-date:       2020-12-10 20:10:23 +0000
+date:       2020-12-10 15:10:23 -0500
 permalink:  simple_ruby_cheatsheet
 ---
 
@@ -31,18 +31,24 @@ string  = gets.chomp
 **iterartion**
 
 `each ,each.with_index `      * will use to iterate inside array elments ,will not retrun new data will get orignial array ,you must use varaible or new array to get what you need *
-`map ,map.with_index `        *will store the data you can return it without using new array*
+
+
+`map ,map.with_index `        *automaticallly  return new array ,you don't need to define new array *
 ```
 
 def fruit(arr)
+       newarr=[]
         arr.each  { |item| 
-             item * 2
+				
+             
+						 newarr << item * 2
         }
+				newarr
 end
 
  fruit(['lemon', 'orange'])                    
-    result :lemon
-               orange
+    result :lemonlemon
+               orangeorange
  
  
  
@@ -85,24 +91,36 @@ end
 	arr.include?('d')        #=> true
 ```
 	
-	Destructive array    : orignal array will changes
-	
-	pushes to end of array,resize of arary without of loosing data
-```
+Destructive array    : orignal array will changes
+
+pushes to end of array,resize of arary without of loosing data
+
 arr.push('g')          #=>  ['a', 'b', 'c',nil, 'd', 'e', 'f','g']  
-```
+
 place to begining of array ,shift and resize of array without loosing data
  	                                                                                         
 arr.unshift(5)        #=> [5,'a', 'b', 'c',nil, 'd', 'e', 'f','g'] 
 
-* 	arr.insert(3, 'ahmed')   #=>  ['a', 'b', 'c','ahmed', 'd', 'e', 'f']    insert between element arrays depending on given index 
-* 	arr.pop           #=> g   get last element of array ,with destructive original array
-* 	arr.shift          #=>  a     get first  element of array ,with destructiveoriginal  array
-* 	arr.delete_at(2)    #=> delete at index 2 
-* 	arr.compact         #=> remove any nil from array  ['a', 'b', 'c','d', 'e', 'f','g'] 
-* 	arr.uniq                #=>. remove duplicate from array
+insert between element arrays depending on given index
+* 	arr.insert(3, 'ahmed')   #=>  ['a', 'b', 'c','ahmed', 'd', 'e', 'f']  
+
+get last element of array ,with destructive original array
+* 	arr.pop           #=> g   
+
+get first  element of array ,with destructiveoriginal  array
+* 	arr.shift          #=>  a     
+
+delete item  with given index 
+* 	arr.delete_at(2)    #=> [5,'a', 'c',nil, 'd', 'e', 'f','g'] 
+
+ remove any nil from array 
+* 	arr.compact         #=> ['a', 'b', 'c','d', 'e', 'f','g'] 
+
+ remove duplicate from array
+* 	arr.uniq                ex:  ['a', 'b', 'c','c','d', 'e', 'f','g']    #=>['a', 'b', 'c','d', 'e', 'f','g']  
 
 non-destructive array  :   original array will not change 
+
 * arr = [1, 2, 3, 4, 5, 6]
 * arr.select {|a| a%2 == 0  }      #=> [2,4,6]
 * arr.reject {|a| a < 4}       #=> [ 4, 5, 6]
