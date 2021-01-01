@@ -1,14 +1,13 @@
 ---
 layout: post
 title:      "Sinatra medical history"
-date:       2020-06-19 15:59:40 +0000
+date:       2020-06-19 11:59:40 -0400
 permalink:  sinatra_medical_history
 ---
 
-In the second project, i made the web application in Sinatra, Sinatra is a DSL language implemented in Ruby, means using it has his own rules from the domain. It used to write codes for specific purposes. My CLI project was about scripting data from websites and displaying the best hotels in the world in the command line. This project was more fun because of its  GUI (Graphic User Interface), which uses graphic images, including icons, menus, bars, windows. So I decide to change the domain for something different. In this project, I decided to do something familiar with, and I chose to do something with medical stuff, so my project name is Sinatra-medical-history. This app tracks the medical history of the family members including appointments with doctors, procedures, and  what kind of diseases catch them in their life, 
+ In my second project in flatiron Bootcamp, I made the web application in Sinatra, Sinatra is a DSL language implemented in Ruby, means using it has his own rules from the domain. It used to write codes for specific purposes. My CLI project was about scripting data from websites and displaying the best hotels in the world in the command line. This project was more fun because of its GUI (Graphic User Interface), which uses graphic images, including icons, menus, bars, windows. So I decide to change the domain for something different. In this project, I decided to do something familiar with, and I chose to do something with medical stuff, so my project name is Sinatra-medical-history. This app tracks the medical history of the family members including appointments with doctors, procedures, and what kind of diseases catch them in their life,
 
-The benefit of this lightweight app i to record your family of  medical history  when you are going to doctor, they ask you your medical history, so it's easy to save all histories in a web application ito use them n the future .
-
+The benefit of this lightweight app is to record your family of medical history when you are going to the doctor, they ask you about your medical history, so it's easy to save all histories in a web application to use them n the future.
 
 
 The project includes:
@@ -61,21 +60,9 @@ $git remote add origin git@github.com:engahmed10/sinatra-medical-history.git #ad
 
 $git push -u origin master  #pushes local branch to remote branch 
 
--craete tables
-
-$git status   #
-
-$git add . #
-
-$git commit -m "tables created"
-
-$git push
-
-$corneal model users
 
 
-
-I created tables and  created some objects and pushed data to the database, created necessary models and their associations which each other.then made controllers and view codes.
+I created tables and   created some objects and pushed data to the database,also  created necessary models and their associations with each others,i  made controllers and view codes.
 
 I used some heplers method to simplify my codes :
 
@@ -129,5 +116,4 @@ Finally, I added some CSS and HTML to make the design better, but I still don't 
 
 ![](https://www.hostpic.org/images/2006192047050321.png)
 
-
-later we can add more stuff like doctors, hospitals, laboratories, and chronic diseases, etc... tables and models and make connections between all.
+In the future, I can add new features to this app like adding models and other tables to our database like doctors, hospitals, laboratories, and chronic diseases, and make them associate with other models to and make the app more complex and more beneficial.
