@@ -5,28 +5,20 @@ date:       2020-04-19 19:33:41 -0400
 permalink:  command_line_interface_project
 ---
 
-We have collected what we have learned in our lessons, study groups.
-The most powerful of any programming language is OOP (object-oriented programming language) and data structure; we used both in this project.
- 
-We called our first project command-line interface (CLI) because that process commands to a computer program in the form of lines of text. 
- 
-When I start to design a plan, I went through several project ideas, but these ideas not contented for some requirements or limitations to develop this project in the future.
- 
-Finally, I chose my project, the goal of this project is to bring data from a popular specific website and make the process to this data and display the result in our CLI :
+We have collected what we have learned in curriculum and study groups.
+In this project we used two souls of ruby language is an OOP (object-oriented programming language) and data structure.
+I went through several project ideas, in the end, I chose my project, the goal of my project is to bring data from a popular specific website and make the process to this data and display the result in our CLI :
  
 * 25 best hotels in the world for 2020 years, their location and their webpages 
 * Show details of each hotel 
 * Show customers have visited these hotels 
 * Show the review of each customer 
 
-In this project, we designed a program that gets data from a specific website, and makes some processes  on it, then displays the results on the CLI.
-
-
 The first thing we have to make our folders and files required for this project, Ruby has a form of a gem or a packaged library.
 By typing this command in terminal:
  
 ```
-$ Bundle gem besthotels 
+$ bundle gem besthotels 
 ```
  
 This command will build folders and some files required for the project.
@@ -37,8 +29,8 @@ lib folder includes all our classes and modules rakefile .
  
 In the lib folder, we have made necessary classes in this project; these classes include:
 
-*   	Scripting class: Responsible for scripting data from website 
-*   	Hotel class: Responsible for creating new instances of classes also assign attributes hotel name, location
+*   	Scripting class: responsible for scripting data from website 
+*   	Hotel class: responsible for creating new instances of hotel classes also assign attributes hotel name, location
        ,and url of each hotel. 
 *   	Customer class: responsible for customers name, and their review for each hotel 
 *   	CLI class: display results.
