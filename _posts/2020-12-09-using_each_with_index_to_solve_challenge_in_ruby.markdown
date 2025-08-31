@@ -8,7 +8,7 @@ permalink:  using_each_with_index_to_solve_challenge_in_ruby
 # 
 
 
-The purpose of this challenge is to learn how to use each.with_index or  map.with_index  enumerator  method , 
+The purpose is learn how to use each.with_index or  map.with_index  enumerator  method , 
 In this challenge you will receive two arguments: array and starter index, the task of this challenge is to return 
 list of fruit with the given started to index and  skip fruits that have index less than given index in the argument,for example, if you have an array with starter index
 ```
